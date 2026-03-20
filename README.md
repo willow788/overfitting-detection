@@ -4,9 +4,8 @@ A small, notebook-first project that demonstrates a simple way to **detect overf
 
 The demo uses scikit-learn’s **Breast Cancer Wisconsin (Diagnostic)** dataset and trains a `RandomForestClassifier`, then reports the **generalization gap**:
 
-\[
-\text{gap} = \text{train\_accuracy} - \text{test\_accuracy}
-\]
+
+Gap = train accuracy - test accuracy.
 
 ## What this repository contains
 
