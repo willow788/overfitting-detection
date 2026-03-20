@@ -97,15 +97,3 @@ Saved plot examples are in:
 - It uses **accuracy** only.
 - The subset selection is the *first N rows* of `x_train`; shuffling or using stratified sampling per fraction could make the curve more stable.
 
-## Suggested next steps (optional)
-
-If you want to extend this repo:
-
-- Add `requirements.txt` (or `environment.yml`) for reproducibility.
-- Use `sklearn.model_selection.learning_curve` to compute learning curves with cross-validation.
-- Add alternative models (Logistic Regression, deeper trees) and compare gaps.
-- Track additional metrics (ROC AUC, F1) and add confusion matrices.
-
-## License
-
-No license file is currently included in this repository. If you intend others to use, modify, or distribute this code, consider adding an explicit open-source license (e.g., MIT, Apache-2.0, GPL-3.0).
